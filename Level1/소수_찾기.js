@@ -1,5 +1,4 @@
 function solution(n) {
-  let answer = 0;
   const s = new Set();
   for(let i = 2; i <= n; i++) s.add(i);
   for(let j = 2; j < Math.sqrt(n); j++) {
